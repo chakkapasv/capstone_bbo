@@ -1,0 +1,105 @@
+Week,Func,Optimizer,Params
+12,1,argmax,
+12,2,argmax,
+12,3,scipymin,
+12,4,isolated,
+12,5,isolated,
+12,6,dirichlet,
+12,7,dirichlet,
+12,8,dirichlet,
+13,1,skopt,EI xi=0.02 30
+13,2,skopt,EI xi=0.02 30
+13,3,skopt,EI xi=0.05 30
+13,4,skopt,LCB kappa=4.0 50
+13,5,skopt,LCB kappa=4.0 50
+13,6,skopt,LCB kappa=4.0 80
+13,7,skopt,LCB kappa=4.0 130
+13,8,skopt,LCB kappa=4.0 130
+14,1,skopt,EI xi=0.02 30
+14,2,skopt,EI xi=0.02 30
+14,3,skopt,EI xi=0.035 30
+14,4,skopt,LCB kappa=4.0 50
+14,5,skopt,LCB kappa=4.0 50
+14,6,skopt,LCB kappa=4.0 80
+14,7,skopt,LCB kappa=4.0 130
+14,8,skopt,LCB kappa=4.0 130
+15,1,skopt,EI xi=0.02 30
+15,2,skopt,EI xi=0.02 30
+15,3,skopt,EI xi=0.035 30
+15,4,skopt,LCB kappa=4.0 50
+15,5,skopt,LCB kappa=4.0 50
+15,6,skopt,LCB kappa=4.0 80
+15,7,skopt,LCB kappa=4.0 130
+15,8,skopt,LCB kappa=4.0 130
+16,1,skopt,EI xi=0.02 30
+16,2,skopt,EI xi=0.02 30
+16,3,skopt,EI xi=0.030 30
+16,4,skopt,LCB kappa=4.0 50
+16,5,skopt,LCB kappa=4.0 50
+16,6,skopt,LCB kappa=4.0 80
+16,7,skopt,LCB kappa=4.0 130
+16,8,skopt,LCB kappa=4.0 130
+17,1,skopt,EI xi=0.02 30
+17,2,skopt,EI xi=0.02 30
+17,3,skopt,EI xi=0.030 30
+17,4,skopt,LCB kappa=4.0 50
+17,5,skopt,LCB kappa=4.0 50
+17,6,skopt,LCB kappa=4.0 80
+17,7,skopt,LCB kappa=4.0 130
+17,8,skopt,LCB kappa=4.0 130
+18,1,skopt,EI xi=0.02 30
+18,2,skopt,EI xi=0.02 30
+18,3,skopt,EI xi=0.02 30
+18,4,skopt,LCB kappa=2.0 50
+18,5,skopt,LCB kappa=2.0 50
+18,6,skopt,LCB kappa=2.0 80
+18,7,skopt,LCB kappa=2.0 130
+18,8,skopt,LCB kappa=2.0 130
+19,1,skopt,EI xi=0.02 30
+19,2,skopt,EI xi=0.02 30
+19,3,skopt,EI xi=0.02 30
+19,4,skopt,LCB kappa=2.0 50
+19,5,skopt,LCB kappa=2.0 50
+19,6,skopt,LCB kappa=2.0 80
+19,7,skopt,LCB kappa=2.0 130
+19,8,skopt,LCB kappa=2.0 130
+20,1,skopt,EI xi=0.02 30
+20,2,skopt,EI xi=0.02 30
+20,3,skopt,EI xi=0.02 30
+21,1,skopt,EI xi=0.02 30
+21,2,skopt,EI xi=0.02 30
+21,3,skopt,EI xi=0.02 30
+22,1,skopt,EI xi=0.01 30
+22,2,skopt,EI xi=0.01 30
+22,3,skopt,EI xi=0.01 30
+20,4,turbo,3
+20,5,turbo,3
+20,6,turbo,2
+20,7,turbo,2
+20,8,turbo,2
+21,4,turbo,3
+21,5,turbo,3
+21,6,turbo,2
+21,7,turbo,2
+21,8,turbo,2
+22,4,hebo,
+22,5,hebo,
+22,6,hebo,
+22,7,turbo,2
+22,8,turbo,2
+23,1,local,0.10 0.5 best_obs
+23,2,local,0.05 0.5 best_mean
+23,3,local,0.10 0.5 best_mean
+23,4,local,0.05 0.5 best_obs
+23,5,local,0.10 0.5 best_obs log
+23,6,local,0.10 0.5 best_obs  
+23,7,local,0.05 0.5 best_obs 
+23,8,local,0.10 0.5 best_obs 
+24,1,local,0.03 0.0 best_obs
+24,2,local,0.05 0.0 best_mean
+24,3,local,0.05 0.0 best_mean
+24,4,local,0.03 0.0 best_obs
+24,5,local,0.05 0.0 best_obs log
+24,6,local,0.05 0.0 best_obs  
+24,7,local,0.03 0.0 best_obs 
+24,8,local,0.05 0.0 best_obs 
